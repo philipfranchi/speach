@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <!--div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -17,6 +17,10 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+  </div-->
+  <div class="main">
+    <button style="margin-right: 30px;">Continue</button>
+    <button>Review</button>
   </div>
 </template>
 
@@ -32,7 +36,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 h1, h2 {
   font-weight: normal;
 }
@@ -49,5 +53,14 @@ li {
 
 a {
   color: #42b983;
+}
+
+button{
+  min-width: 100px;
+  min-height: 80px;
+}
+.main{
+  margin-top: 80px;
+
 }
 </style>
